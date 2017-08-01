@@ -19,7 +19,7 @@
 	</target>
 	
 	<target name="war" depends="compile">
-		<war destfile="C:/Users/IBM_ADMIN/.jenkins/workspace/Jenkins_TestProject.war" webxml="WebContent/WEB-INF/web.xml">
+		<war destfile="C:/Users/BhupeshBothra/.jenkins/workspace/Jenkins_TestProject.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent"/>
 			<lib dir="WebContent/WEB-INF/lib"/>
 			<classes dir="build/classes"/>
