@@ -32,7 +32,7 @@ public class MyController extends HttpServlet {
 		System.out.println("Printing Connection object -Jenkins Test");
 		//System.out.println("Conn "+conn);
 		System.out.println("i got triggered automatically and am deployed in WAS");
-		System.out.println("Second check before demo 338");
+		System.out.println("Second check before demo 339");
 	
 	
 	}
