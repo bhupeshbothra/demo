@@ -20,10 +20,9 @@
 	
 	<target name="war" depends="compile">
 		<war destfile="C:/Users/BhupeshBothra/.jenkins/workspace/demo/dist/Jenkins_TestProject6.war" webxml="WebContent/WEB-INF/web.xml">
-			<fileset dir="WebContent"/>
-			<lib dir="WebContent/WEB-INF/lib">
-				<exclude name="servlet-api.jar"/>
-			</lib>
+			<fileset dir="WebContent">
+				<exclude name="**/*servlet-api.jar"/>
+			</fileset>	
 			<classes dir="build/classes"/>
 		</war>
 	</target>
