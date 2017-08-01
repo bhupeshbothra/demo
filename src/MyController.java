@@ -29,7 +29,7 @@ public class MyController extends HttpServlet {
 		// TODO Auto-generated method stub
 		///Connection conn=DBConnection.getConnection();
 		response.getWriter().append("Served at: ").append(request.getContextPath());
-		System.out.println("Printing Connection object -Jenkins Testing 226");
+		System.out.println("Printing Connection object -Jenkins Testing 227");
 		//System.out.println("Conn "+conn);
 		System.out.println("i got triggered automatically and am deployed in WAS");
 		System.out.println("Second check before demo");
