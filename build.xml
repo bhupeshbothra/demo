@@ -19,7 +19,7 @@
 	</target>
 	
 	<target name="war" depends="compile">
-		<war destfile="C:/Users/BhupeshBothra/.jenkins/workspace/demo/dist/Jenkins_TestProject6.war" webxml="WebContent/WEB-INF/web.xml">
+		<war destfile="C:/Users/BhupeshBothra/.jenkins/workspace/JenkinsDemo/dist/Jenkins_TestProject6.war" webxml="WebContent/WEB-INF/web.xml">
 			<fileset dir="WebContent">
 				<exclude name="**/*servlet-api.jar"/>
 			</fileset>	
